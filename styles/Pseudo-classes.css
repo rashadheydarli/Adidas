@@ -1,0 +1,61 @@
+a:visited {
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+.buttonshop:active{
+    transform: translate(8px ,8px);
+    transition-timing-function: ease-in;
+    transition: 0.3s;
+}
+.sign-up:active{
+    transform: translate(8px ,8px);
+    transition-timing-function: ease-in;
+    transition: 0.3s;
+}
+.path a {
+    text-decoration: underline;
+}
+
+.dropbtn:hover {
+    border-bottom: 3px solid black;
+}
+.dropdown:hover .flexdiv{
+    display: flex;
+}
+.path a:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+} 
+.nw a:visited {
+    color: black;
+    text-decoration: none;
+}  
+.nw a:hover {
+    text-decoration: none;
+}
+.p .price:hover{
+    
+    transform: translateY(-15px);
+    transition: height 1s linear;
+}
+.pp a {
+    text-decoration: none;
+    color: black;
+}
+.pp:hover{
+    border-bottom:10px solid black;
+}
+.sing-up:active{
+    transform: translate(8px ,8px);
+    transition-timing-function: ease-in;
+    transition: 0.3s;
+}
+.feedback:hover{
+    transform: scale(1.5, 1.5);
+    transition: 0.5s linear;
+}
